@@ -1,0 +1,49 @@
+/*ZONA DE IMPORTAÇÃO */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{ /*ZERANDO OS PADRÕES DA PAGINA  E ADICIONANDO FONTE PRINCIPAL*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.form{/*DANDO ESTILO A DIV PAI */
+width: 320px;
+height: 350px;
+background: black;
+color: white;
+margin: 0 auto;
+align-items: center;
+display: flex;
+}
+.itens{/*CONFIGURANDO DIV FILHO PARA FICAR NO CENTRO DO PAI */
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+}
+.itens input{
+    width: 240px;
+    height: 50px;
+}
+.itens button{
+    background: white;
+    color: green;
+    border: none;
+    font-size: 25px;
+    padding: 5px;
+    margin-top: 15px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    height: 5vh;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+/*CODIGO SIMPLES DE CSS*/
